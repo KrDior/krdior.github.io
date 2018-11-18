@@ -126,6 +126,7 @@ h3 {
     font-size: 18px;
     color: darkblue;
     text-transform: capitalize;
+    min-width: 300px;
 }
 
 .input[placeholder="email"]:focus {
@@ -135,6 +136,7 @@ h3 {
 
 .alb_ph {
     outline: 5px solid rgb(52, 63, 70);
+    min-width: 200px;
 }
 
 .alb_ph:hover {
@@ -305,9 +307,12 @@ tr {
 
 .main {
     display: block;
+}
+.fieldset {
+
+    min-width: 320px;
 
 }
-
 @media screen and (max-width: 1920px) {
     .header {
         width: 100%;
@@ -316,6 +321,7 @@ tr {
     .logo {
         min-height: 120px;
     }
+    
 
 }
 
@@ -340,6 +346,9 @@ tr {
     .menu {
         padding-left: 0px;
     }
+    .input, .map {
+        width: 400px;
+    }
 
 
 }
@@ -356,10 +365,21 @@ tr {
     .logo {
         display: none;
     }
+    .alb_ph {
+        height: 200px;
+        width: 200px;
+    }
 
     .desk {
         min-width: 100px;
     }
+    .fieldset {
+        width: 320px;
+    }
+    .input, .map {
+        width: 300px;
+    }
+
 }
 
 /*
