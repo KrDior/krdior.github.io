@@ -155,6 +155,7 @@ h3 {
 }
 .catalog-link li {
     width: 100px;
+    display: inline;
 }
 .catalog-link a {
     width: 85px;
@@ -164,6 +165,7 @@ h3 {
     display: inline-block;
     padding: 10px;
     color: rgb(31, 104, 214);
+
 }
 
 .catalog-link li:nth-child(1) {
@@ -171,33 +173,33 @@ h3 {
 }
 
 #new_1 {
-    display: block;
+    display: inline-block;
     box-sizing: border-box;
     font-weight: 800;
     color: rgb(250, 7, 149);
     text-align: left;
     border: 1px dotted rgb(230, 5, 192);
-    margin-left: -5px;
+    margin-right: -50px;
     width: 50px;
     position: relative;
-    left: 30px;
-    top: -100px;
+    left: -85px;
+    top: -50px;
     background: #fcf2f8;
     opacity: -1;
 }
 
 .catalog-link li:nth-child(1):hover #new_1 {
-    display: block;
+    display: inline-block;
     box-sizing: border-box;
     font-weight: 800;
     color: rgb(250, 7, 149);
     text-align: left;
     border: 1px dotted rgb(230, 5, 192);
-    margin-left: -5px;
+    margin-right: -50px;
     width: 50px;
     position: relative;
-    left: 30px;
-    top: -100px;
+    left: -85px;
+    top: -50px;
     background: #fcf2f8;
     opacity: 0.5;
 }
@@ -311,7 +313,20 @@ tr {
 .fieldset {
 
     min-width: 320px;
-
+}
+.button_buy {
+    color: rgb(81, 19, 224);
+    font-weight: 600;
+    font-size: 15px;
+}
+.button_buy:hover {
+    color: rgb(190, 10, 136);
+    font-weight: 800;
+    font-size: 30px;
+}
+.button_buy:active {
+    color: rgb(48, 86, 189);
+    
 }
 @media screen and (max-width: 1920px) {
     .header {
