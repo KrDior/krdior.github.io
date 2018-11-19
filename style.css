@@ -89,6 +89,7 @@ h3 {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+
 }
 
 .text_2 {
@@ -251,6 +252,15 @@ p::first-letter {
 .table2 {
     border: 3px solid rgb(52, 63, 70);
     border-collapse: collapse;
+    color: #1c1c1d;
+    font-size: 14px;
+    font-family: Times;
+    font-weight: 100;
+    text-align: left;
+    vertical-align: middle;
+    line-height: 15px;
+
+
 }
 
 .table2 td,
@@ -318,6 +328,11 @@ tr {
     color: rgb(81, 19, 224);
     font-weight: 600;
     font-size: 15px;
+    display: block;
+    position: relative;
+    bottom: 30px;
+
+
 }
 .button_buy:hover {
     color: rgb(190, 10, 136);
@@ -328,6 +343,9 @@ tr {
     color: rgb(48, 86, 189);
     
 }
+.hd2 {
+    clear: both;
+}
 @media screen and (max-width: 1920px) {
     .header {
         width: 100%;
@@ -336,7 +354,7 @@ tr {
     .logo {
         min-height: 120px;
     }
-    
+
 
 }
 
@@ -364,10 +382,11 @@ tr {
     .input, .map {
         width: 400px;
     }
-
-
 }
-
+.alb_ph {
+    float: left;
+    margin-right: 20px;
+}
 @media screen and (max-width: 420px) {
     .header {
         width: 100%;
@@ -395,7 +414,6 @@ tr {
         width: 300px;
     }
 
-}
 
 /*
 h1, h2 {
